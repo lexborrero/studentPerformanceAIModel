@@ -67,3 +67,18 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 We evaluate performance using:
 - Accuracy Score
 - Classification Report (Precision, Recall, F1-score)
+___
+
+## 👩‍💻 Author
+
+**Alexander Borrero**  
+Python & AI Student | Project-based Learner  
+_This is an educational project designed to build intuition and skills around supervised ML._
+
+---
+
+## 📚 References
+
+- [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/)
+- [ML Crash Course by Google](https://developers.google.com/machine-learning/crash-course)
