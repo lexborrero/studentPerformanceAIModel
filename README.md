@@ -72,7 +72,7 @@ ___
 ## 👩‍💻 Author
 
 **Alexander Borrero**  
-Python & AI Student | Project-based Learner  
+AI student & developer @ Purdue| Project-based Learner  
 _This is an educational project designed to build intuition and skills around supervised ML._
 
 ---
