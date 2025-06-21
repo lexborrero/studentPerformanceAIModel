@@ -74,7 +74,7 @@ lr_model = LinearRegression()
 lr_model.fit(X_train, y_train)
 ```
 
-# Predict and post-process
+Predict and post-process
 
 ```python
 y_pred_continuous = lr_model.predict(X_test)
