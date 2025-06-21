@@ -62,6 +62,24 @@ A Random Forest Classifier is trained using:
 from sklearn.ensemble import RandomForestClassifier  
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 ```
+### 📈 **Linear Regression Model**
+
+Used for predicting **exact grade scores** (regression + rounded classification).
+
+```python
+from sklearn.linear_model import LinearRegression
+
+# Train the model
+lr_model = LinearRegression()
+lr_model.fit(X_train, y_train)
+```
+
+# Predict and post-process
+
+```python
+y_pred_continuous = lr_model.predict(X_test)
+y_pred_class = np.clip(np.round(y_pred_continuous), min_grade, max_grade)
+```
 
 ## 4. Model Evaluation
 We evaluate performance using:
