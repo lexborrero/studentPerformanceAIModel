@@ -82,10 +82,20 @@ y_pred_class = np.clip(np.round(y_pred_continuous), min_grade, max_grade)
 ```
 
 ## 4. Model Evaluation
-We evaluate performance using:
+For Random Forest:
 - Accuracy Score
-- Classification Report (Precision, Recall, F1-score)
-___
+
+- Classification Report: Precision, Recall, F1-Score
+
+For Linear Regression:
+- Accuracy after rounding
+
+- Mean Squared Error (MSE)
+
+- R-squared (R²)
+
+- Classification Report after rounding
+---
 
 ## 👩‍💻 Author
 
